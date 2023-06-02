@@ -74,6 +74,29 @@ for ($j=1; $j < 100; $j++) {
 }
 */
 
+$clientes = ["pedro", "maria", "juan"];
+
+foreach ($clientes as $cliente) {
+    echo $cliente."<br>";
+}
+
+/*
+$clientes = ["pedro", "maria", "juan"];
+
+foreach ($clientes as $key => $cliente) {
+    echo  $key." - ".$cliente."<br>";
+}
+*/
+
+$cliente = [
+    'nombre' => 'Juan',
+    'saldo' => 200,
+    'tipo' => 'Premium'
+];
+foreach ($cliente as $key => $valor) {
+    echo $key." - ".$valor."<br>";
+}
+
 
 
 
